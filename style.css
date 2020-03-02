@@ -13,6 +13,11 @@ body{
    
 }
 
+a{
+    color:white
+}
+
+/* the box around "About Me"*/
 .boxed {
     border: 5px solid teal ;
     margin-top: 50px;
@@ -28,6 +33,14 @@ body{
       font-size: 36px;
   }
 
+  /* Personal photo*/
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
   p {
       padding-right: 30px;
       padding-left: 30px;
@@ -36,19 +49,20 @@ body{
     
        }
 
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
+  /*labels in contact form*/
   label {
       font-family:'Open Sans Condensed';
       font-size:18px
   }
 
-.card-body{
+  /*submit button on contact form*/
+.btn {
+    margin-bottom: 20px;
+   
+}
+
+/* inside of the cards on Portfolio page*/
+  .card-body{
     text-align: center;
     font-family:'Open Sans Condensed';
      font-size:20px;
@@ -68,13 +82,30 @@ footer {
     color: white;
    border: white;
    padding: 5px;
-}
-
-.btn {
-    margin-bottom: 20px;
    
 }
 
-a{
-    color:white
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    
+    
+ 
 }
+ 
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+ 
+}
+ 
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+ 
+}
+ 
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+ 
+}
+ 
