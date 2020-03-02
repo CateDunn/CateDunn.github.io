@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     font-size: 48px;
-    background-color: palevioletred;
+    background-color: teal;
     color: white;
     margin-bottom: 0%;
     font-family: 'Open Sans Condensed';
@@ -14,12 +14,13 @@ body{
 }
 
 .boxed {
-    border: 5px solid palevioletred ;
-    margin-top: 20px;
+    border: 5px solid teal ;
+    margin-top: 50px;
     padding-top: 10px;
     background-color: white;
     font-family: 'Open Sans Condensed';
     font-size: 18px;
+    margin-bottom: 50px;
   }
 
   h2 {
@@ -51,6 +52,29 @@ body{
     text-align: center;
     font-family:'Open Sans Condensed';
      font-size:20px;
-     background-color:white;
+     background-color:teal;
      
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+footer {
+    text-align: center;
+    background-color:teal;
+    color: white;
+   border: white;
+   padding: 5px;
+}
+
+.btn {
+    margin-bottom: 20px;
+   
+}
+
+a{
+    color:white
 }
