@@ -9,8 +9,14 @@ h1 {
 }
 
 body{
-    background-color: lightgrey
-   
+    background-color: lightgrey;
+    min-height: 100vh;
+    
+}
+
+main {
+    min-height: calc(100vh - 80px);
+    
 }
 
 a{
@@ -83,4 +89,9 @@ footer {
    border: white;
    padding: 5px;
    
+}
+
+.container {
+    max-width: 960px;
+    width:100%;
 }
